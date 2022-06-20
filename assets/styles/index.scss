@@ -1,0 +1,34 @@
+body {
+  font-family: 'Montserrat';
+}
+.index,
+.commerce,
+.case-page,
+.services-solutions,
+.navbar,
+.navbar-not-main,
+.menu-modal,
+.menu-modal-not-main {
+  cursor: url(~assets/images/shared/cursor.svg) 4 5, auto !important;
+  .deals {
+    cursor: none !important;
+  }
+}
+a {
+  cursor: url(~assets/images/shared/cursor.svg) 4 5, auto !important;
+}
+
+.lazyload,
+.lazyloading {
+  opacity: 0;
+  transition: opacity 400ms;
+}
+
+.lazyloaded {
+  opacity: 1;
+  transition: opacity 400ms;
+}
+
+*::-webkit-scrollbar {
+  width: 0px !important;
+}
